@@ -1,0 +1,14 @@
+#NLP PYTHON SIMPLE TEXT OPERATION 1
+
+def calculateWordCounts(text):
+    # Write your code here
+    numwords=len(text)
+    print(numwords)
+    numunique=len(set(text))
+    print(numunique)
+    wordcoverage=numwords//numunique
+    print(wordcoverage)
+    
+ #NLP PYTHON SIMPLE TEXT OPERATION 2
+ 
+ 
